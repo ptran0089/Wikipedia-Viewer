@@ -13,7 +13,7 @@ function search(query) {
         var $newLink = $('<a href="'+$link+'">');
         var $newDiv = $('<div class="snippet">');
         var $title = $('<h3>', {text: result.title});
-        var $snippet = $('<div>', {html: result.snippet});
+        var $snippet = $('<div>', {html: result.snippet + '...'});
         $newDiv.append($title);
         $newDiv.append($snippet);
         $newLink.append($newDiv);

@@ -44,11 +44,11 @@ body {
 }
 
 .snippet {
-  height: 100px;
+  height: auto;
   background-color: #E7E7E8;
   color: black;
   border-radius: 20px;
-  padding: 5px 0 0 10px;
+  padding: 5px 0 25px 10px;
   margin: 10px 10px 20px 0;
 }
 
